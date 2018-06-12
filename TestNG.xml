@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FaceBookModuleAndWalletHub">
+	<test name="FaceBookLogin">
+		<classes>
+			<class name="com.walletHub.Facebook_Assignment_1.FacebookLoginTest" />
+		</classes>
+	</test>
+
+	<test name="Registration">
+		<classes>
+			<class
+				name="com.walletHub.Registration.Assignment_2.RegistrationOnWalletHub" />
+		</classes>
+
+	</test>
+	<test name="Test_Insurance_Company">
+		<classes>
+			<class
+				name="com.walletHub.Registration.Assignment_2.Test_Insurance_Company" />
+		</classes>
+	</test>
+</suite>
